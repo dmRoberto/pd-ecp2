@@ -35,4 +35,13 @@ public class NaturalNumbersTest {
 
 		assertEquals("one", manager.getNaturalNumber().getTextValue());
 	}
+	
+	@Test
+	public void naturalNumberFrench (){
+		NaturalNumberCreator creator = new NaturalNumberCreatorFr();
+		manager.setNumberCreator(creator);
+		
+		manager.createNumber(2);
+		assertEquals("deux", manager.getNaturalNumber().getTextValue());
+	}
 }

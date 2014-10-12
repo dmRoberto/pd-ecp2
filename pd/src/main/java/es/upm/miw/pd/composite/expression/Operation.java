@@ -9,6 +9,4 @@ public abstract class Operation extends Expresion {
 		this.expresions[1] = expresion2;
 	}
 
-	public abstract int operar();
-
 }
