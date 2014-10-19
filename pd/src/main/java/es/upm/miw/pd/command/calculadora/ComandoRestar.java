@@ -11,7 +11,7 @@ public class ComandoRestar extends ComandoAbstracto {
 	@Override
 	public void execute() {
 		int valor = IO.in.readInt("Introduzca el valor a restar: ");
-		this.receptor.restar(valor);
+		this.calculadora.restar(valor);
 	}
 
 }

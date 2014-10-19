@@ -11,7 +11,7 @@ public class ComandoImprimir extends ComandoAbstracto {
 
 	@Override
 	public void execute() {
-		IO.in.print("Total: " + receptor.getTotal());
+		IO.in.print("Total: " + calculadora.getTotal());
 		IO.in.println();
 	}
 

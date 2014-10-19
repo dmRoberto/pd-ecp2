@@ -9,7 +9,7 @@ public class ComandoIniciar extends ComandoAbstracto {
 
 	@Override
 	public void execute() {
-		receptor.iniciar();
+		calculadora.iniciar();
 	}
 
 }

@@ -2,12 +2,12 @@ package es.upm.miw.pd.command.calculadora;
 
 public abstract class ComandoAbstracto implements Comando {
 	
-	protected Calculadora receptor;
+	protected Calculadora calculadora;
 	
 	protected String name;
 	
 	public ComandoAbstracto (Calculadora cal){
-		this.receptor = cal;
+		this.calculadora = cal;
 	}
 	
 	@Override

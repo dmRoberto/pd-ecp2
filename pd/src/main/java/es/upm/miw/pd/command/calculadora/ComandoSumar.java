@@ -12,7 +12,7 @@ public class ComandoSumar extends ComandoAbstracto {
 	@Override
 	public void execute() {
 		int valor = IO.in.readInt("Introduzca el valor a sumar: ");
-		this.receptor.sumar(valor);
+		this.calculadora.sumar(valor);
 	}
 
 }
